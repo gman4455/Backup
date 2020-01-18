@@ -1,0 +1,9 @@
+.window-frame {
+  box-shadow: none;
+  margin: 0;
+}
+.pcmanfm {
+
+-gtk-icon-style: regular;
+
+}
