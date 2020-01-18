@@ -54,7 +54,7 @@ type = internal/memory
 ; Default: 1
 interval = 3
 format = <label>
-label =  %gb_used%  
+label = "  %gb_used% " 
 format-foreground = ${colors.white}
 format-background = ${colors.black}
 format-underline = ${colors.green}
@@ -66,7 +66,7 @@ format-underline = ${colors.green}
 type = internal/cpu 
 interval = 2
 format = <label>
-label = ﬙ %percentage:2%%
+label = "﬙ %percentage:2%%"
 format-foreground = ${colors.white}
 format-background = ${colors.black}
 format-padding = 1
