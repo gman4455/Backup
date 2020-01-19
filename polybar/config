@@ -86,10 +86,9 @@ format-online-foreground = ${colors.white}
 format-online-padding = 1
 icon-play = 
 ;icon-prev = 
-;icon-next = 
+;icon-next = 
 icon-pause = 
-label-song =  "%title%"
-label-song-maxlen = 35
+label-song =  "%{A1:mpc next&:}%title:0:40:...%%{A}"
 label-song-ellipsis = true
 ;bar-progress-width = 13
 ;bar-progress-indicator = ⊙
@@ -141,7 +140,7 @@ type = internal/xwindow
 format-foreground = ${colors.white}
 format-background = ${colors.black}
 format-padding = 5
-label = %title:0:75:...%
+label = %title:0:50:...%
 
 ;---------------------------------------
 ;	   XBACKLIGHT
